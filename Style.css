@@ -175,7 +175,7 @@ aside .sidebar{
     height: 86vh;
     position: relative;
     top: 3rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 aside h3{
@@ -533,6 +533,11 @@ main .recent-orders a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.right .sales-analytics .add-product:hover{
+    background: var(--color-primary);
+    color: var(--color-white);
 }
 
 .right .sales-analytics .add-product div{
